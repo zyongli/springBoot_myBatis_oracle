@@ -1,0 +1,8 @@
+mybatis:
+  mapper-locations: /dao/*.xml
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@10.20.133.129:1521:gfzsh
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    username: icf
+    password: icf
